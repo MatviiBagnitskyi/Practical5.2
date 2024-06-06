@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(117, 66, 40);
+  }
+h1{
+    color: rgb(59, 30, 10);
+}
+.button_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+ .button{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    margin: 50px 0 0 17px;
+    width: 120px;
+    height: 25px;
+    white-space: nowrap;
+    border-radius: 15px;
+    background-color: rgb(240, 172, 108);
+    color: black;
+   font-weight: bold;
+   border: 1px solid black;
+}
+.button:hover{
+    background-color: rgb(203, 108, 61);
+}
+.box_title{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0 auto;
+    white-space: nowrap;
+}
